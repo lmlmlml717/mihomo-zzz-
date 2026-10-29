@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Novecento Wide Bold';
+    src: url('/fonts/Novecento-Wide-Bold-2.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Novecento Wide Light';
+    src: url('/fonts/Novecento-Wide-Light-2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Novecento Wide Medium';
+    src: url('/fonts/Novecento-Wide-Medium-2.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Novecento Wide Normal';
+    src: url('/fonts/Novecento-Wide-Normal-2.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaInserat';
+    src: url('/fonts/HelveticaInserat.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FUTURAB';
+    src: url('/fonts/FUTURAB.ttf') format('truetype');
+     
+}
+
+@font-face {
+    font-family: 'FuturaBT_Light';
+    src: url('/fonts/FuturaBT_Light.woff.ttf') format('truetype');
+     
+}
+@font-face {
+    font-family: 'EndfieldByButan';
+    src: url('/fonts/EndfieldByButan.ttf') format('truetype');
+     
+}
+
+@font-face {
+    font-family: 'inpin-hongmengti';
+    src: url('/fonts/inpin-hongmengti.ttf') format('truetype');
+     
+}
