@@ -141,7 +141,7 @@ export const PChNav = ({ dpRoLists = [], activeId, onChange }) => {
 
                                 }}
                             />
-                            <img src={item.smimg} />
+                            <img src={`/mihomo-zzz-/images/${item.smimg}`} />
                         </div>
                     ))}
                 </div>

@@ -126,7 +126,7 @@ export const Pnews = ({ children, currentPg }) => {
 
                                     <Link href={item.link} className='news-slider-latest-img '>
 
-                                        <img src={item.ItemUrl} className='w-full h-full object-cover object-center' />
+                                        <img src={`/mihomo-zzz-/images/${item.ItemUrl}`} className='w-full h-full object-cover object-center' />
                                     </Link>
                                 </div>
 

@@ -51,7 +51,7 @@ export const Pwitem = ({ bimg, h, p }) => {
                                         <div className="swiper-slide w-full h-auto">
 
 
-                                            <img src={bimg} className='w-full ' />
+                                            <img src={`/mihomo-zzz-/images/${bimg}`} className='w-full ' />
 
                                         </div>
                                     </div>

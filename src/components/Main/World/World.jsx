@@ -105,7 +105,7 @@ export const World = () => {
                                     } key={item.id} ref={slideRef}>
 
                                         <Link href="/world" className="w-full h-full object-cover" >
-                                            <img className="w-full h-full object-cover object-center" src={item.bannerUrl} />
+                                            <img className="w-full h-full object-cover object-center" src={`/mihomo-zzz-/images/${item.bannerUrl}`} />
                                         </Link>
 
                                     </div>
@@ -142,7 +142,7 @@ export const World = () => {
 
                             <div className="absolute top-[.2rem] left-[-1.68rem] w-[3.18rem] h-[1.86rem] ">
                                 <div className="mt-[.18rem] ml-[.18rem] w-[2.14rem] h-[1.5rem] bg-[#fff]">
-                                    <img className="w-full h-full object-cover object-center" src="/images/6360987773eec96ad06bd5037979034a_7429561287467471877.gif" />
+                                    <img className="w-full h-full object-cover object-center" src={`/mihomo-zzz-/images/6360987773eec96ad06bd5037979034a_7429561287467471877.gif`} />
                                 </div>
                                 <div className="top-0 left-0 w-full h-full absolute bg-[url(/images/concept-tv.8242ab6.png)] bg-no-repeat bg-[length:100%_100%]"></div>
                                 <div className="top-1/2 left-[.9rem] z-[3] w-[.7rem] h-[.7rem] absolute bg-[url(/images/zan.png)] bg-no-repeat bg-[length:100%_100%] translate-y-[-50%]"></div>

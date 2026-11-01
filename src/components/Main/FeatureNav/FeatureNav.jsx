@@ -18,7 +18,7 @@ export const    FeatureNav = ({current}) => {
 
 
 
-                            <img src={item.ItemUrl} className=' h-full object-cover' />
+                            <img src={`/mihomo-zzz-${item.ItemUrl}`} className=' h-full object-cover' />
 
                         </div>
 

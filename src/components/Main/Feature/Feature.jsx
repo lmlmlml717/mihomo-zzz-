@@ -37,14 +37,14 @@ export const Feature = () => {
             {/* ===================== */}
             <div className="top-[-4.7rem] absolute right-0 w-[9.48rem] z-[0] pointer-events-none">
 
-                <img src="/images/fill-bar.3e3b1a7.png" className="absolute top-[-1.1rem] left-[-2.8rem] w-[12.4rem] max-w-none" />
+                <img src={`/mihomo-zzz-/images/fill-bar.3e3b1a7.png`} className="absolute top-[-1.1rem] left-[-2.8rem] w-[12.4rem] max-w-none" />
 
-                <img src="/images/fill-black-right.c6c1db1.png" className="w-full " />
+                <img src={`/mihomo-zzz-/images/fill-black-right.c6c1db1.png`} className="w-full " />
 
             </div>
             {/* ===================== */}
             <div className="absolute top-0 left-[-0.01rem] w-[25.62rem] pointer-events-none">
-                <img src="/images/fill-black-short.9c5f6aa.png" className="w-full " />
+                <img src={`/mihomo-zzz-/images/fill-black-short.9c5f6aa.png`} className="w-full " />
 
             </div>
             {/* ===================== */}

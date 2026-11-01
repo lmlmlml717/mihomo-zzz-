@@ -120,7 +120,7 @@ function NewsCategoryPageInner() {
                      
                         <Link href={item.link}>
                             <div className="news-list-item-banner">
-                                <img src={item.img} />
+                                <img src={`/mihomo-zzz-${item.img}`} />
                             </div>
                         </Link>
                       

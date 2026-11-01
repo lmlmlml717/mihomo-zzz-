@@ -163,9 +163,9 @@ export const Header = ({ }) => {
                 <div className="flex items-center">
                     {/* =======================大小logo */}
                     <div className="header_logo relative w-[2.3rem] h-[0.54rem] leading-0 shrink-0 cursor-pointer">
-                        <img src="/images/logo.1e072ee.png" className={`logo-big mt-[0.08rem] origin-top-left  ${isLogoBig}`} />
+                        <img src={`/mihomo-zzz-/images/logo.1e072ee.png`} className={`logo-big mt-[0.08rem] origin-top-left  ${isLogoBig}`} />
 
-                        <img src="/images/logo-sm.1b88313.svg" className={`logo-sm w-auto h-[0.54rem] absolute top-0 left-0 ${isLogoSm}`} />
+                        <img src={`/mihomo-zzz-/images/logo-sm.1b88313.svg`} className={`logo-sm w-auto h-[0.54rem] absolute top-0 left-0 ${isLogoSm}`} />
 
                     </div>
                     {/* ========================跳转 */}
@@ -187,7 +187,7 @@ export const Header = ({ }) => {
 
                         {/* ======================== 音乐*/}
                         <div className="relative cursor-pointer w-[.58rem] h-[.58rem]" >
-                            <img src="/images/下载.png" className="m-audio-player_icon" />
+                            <img src={`/mihomo-zzz-/images/下载.png`} className="m-audio-player_icon" />
                         </div>
                         {/* ======================== 分享*/}
                         <div className="h-full ml-[.52rem]" >

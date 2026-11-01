@@ -109,7 +109,7 @@ export const News = () => {
                                     {Array.isArray(New) && New.map((item) => (
                                         <div key={item.id} className="swiper-slide block w-full h-full">
                                             <Link href={item.link} className="block w-full h-full">
-                                                <img src={item.ItemUrl} className="w-full h-full object-cover object-center" />
+                                                <img src={`/mihomo-zzz-/images/${item.ItemUrl}`} className="w-full h-full object-cover object-center" />
                                             </Link>
                                         </div>
                                     ))}

@@ -25,7 +25,7 @@ const CharacterNavItem = ({ current, next, prev, style }) => {
                     >
 
 
-                        <img src={item.smUrl} />
+                        <img src={`/mihomo-zzz-${item.smUrl}`} />
                         <div className={current === item.id ? "home-character_nav-mask active" : "home-character_nav-mask"}></div>
                     </div>))}
             </div>
