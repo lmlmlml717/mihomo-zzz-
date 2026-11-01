@@ -13,6 +13,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Ptitle } from '../Main/InnerTitle/InnerTItle';
 
 import Pworlds from '../../utils/Page/Pworlds';
+import { resolveImgUrl } from '@/utils/imgUrl';
 
 export const Pworld = () => {
 
@@ -193,7 +194,7 @@ export const Pworld = () => {
 
                                                 <div className="world-slide-mask "></div>
 
-                                                <div className='world-slide-cover' style={{ backgroundImage: `url(${item.img})` }}></div>
+                                                <div className='world-slide-cover' style={{ backgroundImage: `url(${resolveImgUrl(item.img)})` }}></div>
 
                                                 <div className="world-slide-tape">
                                                     <div className="tape-name">

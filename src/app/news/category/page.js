@@ -12,6 +12,7 @@ import { useDeviceDetect } from '@/hooks/useDeviceDetect';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { resolveImgUrl } from '@/utils/imgUrl';
 
 import PnewsItems from '@/utils/Page/PnewsItems';
 import { getPublicData } from '@/app/api/route';
@@ -120,7 +121,7 @@ function NewsCategoryPageInner() {
                      
                         <Link href={item.link}>
                             <div className="news-list-item-banner">
-                                <img src={`${item.img}`} />
+                                <img src={resolveImgUrl(item.img)} />
                             </div>
                         </Link>
                       

@@ -15,6 +15,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { PChNav } from './PChLIstNav';
+import { resolveImgUrl } from '@/utils/imgUrl';
 
 
 import Pci from '@/utils/Page/ProlesDp';
@@ -80,7 +81,7 @@ export const PChItems = ({ currentDpRo, currentRo }) => {
                             {/* 立绘 */}
                             <div
                                 className="character-cover swiper-lazy swiper-lazy-loaded"
-                                style={{ backgroundImage: `url(${displayRole.img})` }}
+                                style={{ backgroundImage: `url(${resolveImgUrl(displayRole.img)})` }}
                             />
                             {/* 信息 */}
                             <div className="character-info">

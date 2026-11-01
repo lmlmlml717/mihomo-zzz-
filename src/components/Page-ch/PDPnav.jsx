@@ -15,6 +15,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import Pci from '@/utils/Page/ProlesDp';
+import { resolveImgUrl } from '@/utils/imgUrl';
 
 
 
@@ -160,7 +161,7 @@ export const Pnav = ({ toChild }) => {
                             }}
                         className={currentDpIndex === item.id ? "side-camp-item swiper-slide swiper-slide-duplicate swiper-slide-active":"side-camp-item swiper-slide swiper-slide-duplicate"} key={index}>
 
-                            <div className="side-camp-icon" style={{ backgroundImage: `url(${item.sm})` }}>
+                            <div className="side-camp-icon" style={{ backgroundImage: `url(${resolveImgUrl(item.sm)})` }}>
 
                             </div>
                             <div className="side-camp-name font-hongmeng">{item.dp}</div>
