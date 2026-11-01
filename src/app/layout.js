@@ -1,8 +1,9 @@
+
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import { ResponsiveProvider } from '../components/ResponsiveProvider/ResponsiveProvider';
-import { Suspense } from 'react';
+import { ResponsiveProvider } from '@/components/ResponsiveProvider/ResponsiveProvider';
+import HomePage from '../components/Main/HomePage/homePage';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com/mihomo-zzz-';
 const siteName = '仿《绝区零》官网-绝区零风格 UI 复刻演示';
@@ -99,12 +100,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Suspense fallback={<div className="text-center text-3xl font-bold text-white">Loading...</div>}>
-
-          <ResponsiveProvider>
-            {children}
-          </ResponsiveProvider>
-        </Suspense>
+        <HomePage>
+          {children}
+        </HomePage>
       </body>
     </html>
   );
