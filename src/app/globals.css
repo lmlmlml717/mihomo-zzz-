@@ -90,7 +90,7 @@
     position: absolute;
     width: .12rem;
     height: .1rem;
-    background-image: url("/images/箭头.png");
+    background-image: url("/mihomo-zzz-/images/箭头.png");
     background-size: 100% 100%;
     right: -0.15rem;
     top: .04rem;
@@ -148,7 +148,7 @@
     position: absolute;
     width: .15rem;
     height: .15rem;
-    background-image: url("/images/箭头2.png");
+    background-image: url("/mihomo-zzz-/images/箭头2.png");
     background-size: 100% 100%;
     margin-left: .05rem;
   }
@@ -189,7 +189,7 @@
     left: -3.23rem;
     width: 8.45rem;
     height: 7.86rem;
-    background-image: url("/images/bg-nav.daea1f6.png");
+    background-image: url("/mihomo-zzz-/images/bg-nav.daea1f6.png");
   }
 
   /* ========================= */
@@ -366,7 +366,7 @@
   }
 
   .Top:hover {
-    background-image: url("/images/topa.png");
+    background-image: url("/mihomo-zzz-/images/topa.png");
   }
 
   .icon:hover {
@@ -849,12 +849,12 @@
 
   .mihoyo-pager-rich-prev {
     left: .06rem;
-    background-image: url('/images/jian2.png');
+    background-image: url('/mihomo-zzz-/images/jian2.png');
   }
 
   .mihoyo-pager-rich-next {
     right: .06rem;
-    background-image: url('/images/坚.png');
+    background-image: url('/mihomo-zzz-/images/坚.png');
   }
 
   .mihoyo-pager-rich-button,
@@ -1042,7 +1042,7 @@
   }
 
   .back-btn:hover .backArrow {
-    background-image: url('/images/bka.png')
+    background-image: url('/mihomo-zzz-/images/bka.png')
   }
 
   .back-btn:hover .backText {
@@ -1535,8 +1535,8 @@
   .character-info-row .character-voice-player .character-voice-btn-inner-highlight {
     width: 100%;
     height: 100%;
-    mask-image: url('/images/y.png');
-    -webkit-mask-image: url('/images/y.png');
+    mask-image: url('/mihomo-zzz-/images/y.png');
+    -webkit-mask-image: url('/mihomo-zzz-/images/y.png');
     mask-size: 100% 100%;
     -webkit-mask-size: 100% 100%;
     background-image: linear-gradient(to bottom, rgba(191, 219, 90, 0) 0%, rgba(191, 219, 90, 0) var(--progress), rgb(191, 219, 90) calc(var(--progress) + 10%), rgb(191, 219, 90) 100%);
@@ -1545,7 +1545,7 @@
   .character-info-row .character-voice-player .character-voice-btn-inner {
     width: .24rem;
     height: .33rem;
-    background-image: url('/images/y.png');
+    background-image: url('/mihomo-zzz-/images/y.png');
     background-size: 100% 100%;
   }
 
@@ -1563,7 +1563,7 @@
     left: 0;
     width: 10.3rem;
     height: 12rem;
-    background-image: url('/images/inner-top.224793e.png');
+    background-image: url('/mihomo-zzz-/images/inner-top.224793e.png');
     background-size: 10.3rem auto;
     background-repeat: no-repeat;
   }
@@ -1604,7 +1604,7 @@
 
   .character .side-character-camp-selection .side-camp-swiper .side-camp-item {
     height: 3.62rem;
-    background-image: url('/images/js.png');
+    background-image: url('/mihomo-zzz-/images/js.png');
     background-size: 100% 100%;
     opacity: .45;
     position: relative;
