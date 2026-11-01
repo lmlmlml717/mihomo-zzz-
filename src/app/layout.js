@@ -2,7 +2,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import { ResponsiveProvider } from '@/components/ResponsiveProvider/ResponsiveProvider';
+import { ResponsiveProvider } from '../components/ResponsiveProvider/ResponsiveProvider';
 import HomePage from '../components/Main/HomePage/homePage';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com/mihomo-zzz-';
