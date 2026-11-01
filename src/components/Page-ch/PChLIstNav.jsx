@@ -17,6 +17,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import Pci from '@/utils/Page/ProlesDp';
 import PdpRoles from '@/utils/Page/PdpRoles';
+import { resolveImagesUrl } from '@/utils/imgUrl';
 
 
 
@@ -141,7 +142,7 @@ export const PChNav = ({ dpRoLists = [], activeId, onChange }) => {
 
                                 }}
                             />
-                            <img src={`/mihomo-zzz-/images/${item.smimg}`} />
+                            <img src={resolveImagesUrl(item.smimg)} />
                         </div>
                     ))}
                 </div>

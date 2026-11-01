@@ -11,6 +11,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { Title } from '../InnerTitle/InnerTItle';
 import Banner from '../../../utils/Main/Banner';
+import { resolveImagesUrl } from '../../../utils/imgUrl';
 
 
 export const World = () => {
@@ -105,7 +106,7 @@ export const World = () => {
                                     } key={item.id} ref={slideRef}>
 
                                         <Link href="/world" className="w-full h-full object-cover" >
-                                            <img className="w-full h-full object-cover object-center" src={`/mihomo-zzz-/images/${item.bannerUrl}`} />
+                                            <img className="w-full h-full object-cover object-center" src={resolveImagesUrl(item.bannerUrl)} />
                                         </Link>
 
                                     </div>

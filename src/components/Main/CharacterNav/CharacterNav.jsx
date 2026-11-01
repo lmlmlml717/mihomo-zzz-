@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 
 
 import Roles from '../../../utils/Main/Roles'
+import { resolveImgUrl } from '../../../utils/imgUrl'
 
 const CharacterNavItem = ({ current, next, prev, style }) => {
 
@@ -25,7 +26,7 @@ const CharacterNavItem = ({ current, next, prev, style }) => {
                     >
 
 
-                        <img src={`/mihomo-zzz-${item.smUrl}`} />
+                        <img src={resolveImgUrl(item.smUrl)} />
                         <div className={current === item.id ? "home-character_nav-mask active" : "home-character_nav-mask"}></div>
                     </div>))}
             </div>

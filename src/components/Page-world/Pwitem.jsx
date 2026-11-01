@@ -10,6 +10,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { Ptitle } from '../Main/InnerTitle/InnerTItle';
+import { resolveImagesUrl } from '../../utils/imgUrl';
 export const Pwitem = ({ bimg, h, p }) => {
     const strong = `${p}`
 
@@ -51,7 +52,7 @@ export const Pwitem = ({ bimg, h, p }) => {
                                         <div className="swiper-slide w-full h-auto">
 
 
-                                            <img src={`/mihomo-zzz-/images/${bimg}`} className='w-full ' />
+                                            <img src={resolveImagesUrl(bimg)} className='w-full ' />
 
                                         </div>
                                     </div>

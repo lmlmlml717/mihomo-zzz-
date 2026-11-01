@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 
 
 import Roles from '../../../utils/Main/Roles'
+import { resolveImgUrl } from '../../../utils/imgUrl'
 
 
 export const CharacterBg = ({ current }) => {
@@ -29,13 +30,13 @@ export const CharacterBg = ({ current }) => {
                                     <div className={`absolute left-0 bottom-0 z-[2] w-[18.05rem] h-[12.53rem] 
                                 ${current === item.id ? 'ch-active' : ' ch opacity-0'}`}
                                     >
-                                        <img src={`/mihomo-zzz-${item.roUrl}`} className="w-full h-full " />
+                                        <img src={resolveImgUrl(item.roUrl)} className="w-full h-full " />
                                     </div>
 
                                     <div className={`absolute left-[11.25rem] bottom-[.73rem] z-[1] w-[9rem] h-[7.13rem] overflow-hidden flex flex-row justify-start items-start
                                  ${current === item.id ? 'ch-bg-active' : ' ch-bg opacity-0'}`}
                                     >
-                                        <img src={`/mihomo-zzz-${item.bgUrl}`} className="w-full h-auto " />
+                                        <img src={resolveImgUrl(item.bgUrl)} className="w-full h-auto " />
                                     </div>
                                     {/* ===================== 文字*/}
                                     <div className={`ch-ti absolute right-[1.54rem] bottom-[0rem] z-[3] w-[5.2rem] h-[7.86rem] pt-[1.95rem] text-right

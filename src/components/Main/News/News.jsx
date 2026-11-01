@@ -8,6 +8,7 @@ import { gsap } from 'gsap';
 import { Title } from '../InnerTitle/InnerTItle';
 import { More } from '../More/More';
 import New from '../../../utils/Main/New';
+import { resolveImagesUrl } from '../../../utils/imgUrl';
 
 export const News = () => {
    const [current, setCurrent] = useState(() => (Array.isArray(New) && New.length ? Number(New[0].id) : 1));
@@ -109,7 +110,7 @@ export const News = () => {
                                     {Array.isArray(New) && New.map((item) => (
                                         <div key={item.id} className="swiper-slide block w-full h-full">
                                             <Link href={item.link} className="block w-full h-full">
-                                                <img src={`/mihomo-zzz-/images/${item.ItemUrl}`} className="w-full h-full object-cover object-center" />
+                                                <img src={resolveImagesUrl(item.ItemUrl)} className="w-full h-full object-cover object-center" />
                                             </Link>
                                         </div>
                                     ))}

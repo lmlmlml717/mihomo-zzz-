@@ -3,6 +3,7 @@ import React from 'react';
 
 
 import FeatureItems from '../../../utils/Main/FeatureItems'
+import { resolveImgUrl } from '../../../utils/imgUrl'
 
 export const    FeatureNav = ({current}) => {
 
@@ -18,7 +19,7 @@ export const    FeatureNav = ({current}) => {
 
 
 
-                            <img src={`/mihomo-zzz-${item.ItemUrl}`} className=' h-full object-cover' />
+                            <img src={resolveImgUrl(item.ItemUrl)} className=' h-full object-cover' />
 
                         </div>
 
