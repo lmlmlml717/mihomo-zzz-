@@ -13,7 +13,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Ptitle } from '../Main/InnerTitle/InnerTItle';
 
 import PnewsBanner from '@/utils/Page/PnewsBanner';
-import { resolveImagesUrl } from '@/utils/imgUrl';
+import { resolveImgUrl } from '@/utils/imgUrl';
 import { Container } from 'postcss';
 
 const tabList = [
@@ -127,7 +127,7 @@ export const Pnews = ({ children, currentPg }) => {
 
                                     <Link href={item.link} className='news-slider-latest-img '>
 
-                                        <img src={resolveImagesUrl(item.ItemUrl)} className='w-full h-full object-cover object-center' />
+                                        <img src={resolveImgUrl(item.ItemUrl)} className='w-full h-full object-cover object-center' />
                                     </Link>
                                 </div>
 
