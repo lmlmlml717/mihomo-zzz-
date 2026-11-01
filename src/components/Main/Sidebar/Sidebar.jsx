@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 
@@ -53,9 +54,7 @@ export const Sidebar = ({ clickIndex,
         <aside className="fixed top-[3.2rem] right-0 z-[100] w-[.82rem] h-[3.58rem] rounded-l-[0.15rem] rounded-r-none border-[0.05rem] border-r-0 border-l-[#646464] border-t-[#646464] border-b-[#646464] bg-[#0a0a0a] overflow-hidden">
             <div className="relative z-[2] mx-0 my-auto h-[2.4rem] pt-[.2rem] pr-0 pb-[.2rem] pl-[.14rem] flex flex-col justify-between items-start">
                 <div onClick={onPrev} className={`${
-                    currentIndex === 0 ? 'bg-[url(/images/shangx.png)]' : 'bg-[url(/images/shang.png)]'} w-[.36rem] h-[.46rem] cursor-pointer bg-[position:0_0] bg-[size:100%_100%]`}>
-
-
+                    currentIndex === 0 ? 'bg-[url(/mihomo-zzz-/images/shangx.png)]' : 'bg-[url(/mihomo-zzz-/images/shang.png)]'} w-[.36rem] h-[.46rem] cursor-pointer bg-[position:0_0] bg-[size:100%_100%]`}>
 
 
 
@@ -64,7 +63,7 @@ export const Sidebar = ({ clickIndex,
                 </div>
                 <div onClick={onNext} className={`${
                     currentIndex === 4
-                        ? 'bg-[url(/images/shangx.png)]' : 'bg-[url(/images/shang.png)]'} w-[.36rem] h-[.46rem]  cursor-pointer bg-[position:0_0] bg-[size:100%_100%] scale-y-[-1]`}>
+                        ? 'bg-[url(/mihomo-zzz-/images/shangx.png)]' : 'bg-[url(/mihomo-zzz-/images/shang.png)]'} w-[.36rem] h-[.46rem]  cursor-pointer bg-[position:0_0] bg-[size:100%_100%] scale-y-[-1]`}>
 
 
                 </div>
@@ -76,6 +75,7 @@ export const Sidebar = ({ clickIndex,
                         prev === -1 ? 0 : prev + 1) * 2.12
  }rem)`
                 }} className={`sidebar absolute top-0 left-[.1rem] transition-transform duration-300 ease-in`}>
+
 
 
 

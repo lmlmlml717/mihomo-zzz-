@@ -8,7 +8,7 @@ export const Footer = ({ onTop }) => {
             {/* ===================== */}
             <div className="relative w-[19.2rem] my-0 mx-auto">
                 {/* ===================== */}
-                <button className="Top  absolute left-0 z-[2] bg-[url(/images/top.png)] w-[1.6rem] h-[1.8rem] top-0 cursor-pointer opacity-1 bg-no-repeat bg-top bg-center bg-contain"
+                <button className="Top  absolute left-0 z-[2] bg-[url(/mihomo-zzz-/images/top.png)] w-[1.6rem] h-[1.8rem] top-0 cursor-pointer opacity-1 bg-no-repeat bg-top bg-center bg-contain"
 
                     onClick={onTop}
                 >

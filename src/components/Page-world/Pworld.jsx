@@ -87,6 +87,9 @@ export const Pworld = () => {
 
 
 
+
+
+
     useGSAP(() => {
 
         if (link === false) {
@@ -136,10 +139,12 @@ export const Pworld = () => {
 
 
 
-    return (
-        <div className="pworld relative min-h-[calc(100vh-1rem)] mt-[1rem] bg-[url('/images/bg.123ba49.jpg')] no-repeat bg-center bg-cover bg-fixed overflow-hidden" >
 
-            <div className="pworld-container overflow-hidden bg-[url('/images/inner-top.224793e.png')] bg-no-repeat bg-[position:0_-1rem] bg-[size:10.3rem_11.6rem]">
+
+    return (
+        <div className="pworld relative min-h-[calc(100vh-1rem)] mt-[1rem] bg-[url('/mihomo-zzz-/images/bg.123ba49.jpg')] no-repeat bg-center bg-cover bg-fixed overflow-hidden" >
+
+            <div className="pworld-container overflow-hidden bg-[url('/mihomo-zzz-/images/inner-top.224793e.png')] bg-no-repeat bg-[position:0_-1rem] bg-[size:10.3rem_11.6rem]">
 
 
                 {/* ================== */}
@@ -172,6 +177,7 @@ export const Pworld = () => {
                                     }
                                         style={{ opacity: current === item.id ? 1 : 0.6, transition: 'transform 0.3s ease-in-out' }}
                                    
+
 
                                     >
                                         <Link href={item.link}
@@ -209,6 +215,10 @@ export const Pworld = () => {
 
 
 
+
+
+
+
                             </div>
                         </div>
 
@@ -216,11 +226,11 @@ export const Pworld = () => {
 
                         <div className='pworld-nav pointer-events-none'>
 
-                            <div onClick={() => setCurrent(current === 0 ? 2 : current - 1)} className="swiper-button-prev left-[.7rem] z-[2] w-[1.36rem] h-[.94rem] mt-[-0.97rem] pointer-events-auto bg-[url('/images/pjian.png')] bg-center bg-cover hover:bg-[url('/images/pjiana.png')]" ></div>
+                            <div onClick={() => setCurrent(current === 0 ? 2 : current - 1)} className="swiper-button-prev left-[.7rem] z-[2] w-[1.36rem] h-[.94rem] mt-[-0.97rem] pointer-events-auto bg-[url('/mihomo-zzz-/images/pjian.png')] bg-center bg-cover hover:bg-[url('/mihomo-zzz-/images/pjiana.png')]" ></div>
 
 
 
-                            <div onClick={() => setCurrent(current === 2 ? 0 : current + 1)} className="swiper-button-prev right-[.7rem] rotate-180 z-[2] w-[1.36rem] h-[.94rem] mt-[-0.97rem] pointer-events-auto bg-[url('/images/pjian.png')] bg-center bg-cover hover:bg-[url('/images/pjiana.png')]" ></div>
+                            <div onClick={() => setCurrent(current === 2 ? 0 : current + 1)} className="swiper-button-prev right-[.7rem] rotate-180 z-[2] w-[1.36rem] h-[.94rem] mt-[-0.97rem] pointer-events-auto bg-[url('/mihomo-zzz-/images/pjian.png')] bg-center bg-cover hover:bg-[url('/mihomo-zzz-/images/pjiana.png')]" ></div>
 
 
 
@@ -232,7 +242,7 @@ export const Pworld = () => {
                 </div>
 
                 {/* ================== */}
-                <div className="pworld-section-footer absolute w-[9.91rem] h-[7.08rem] bottom-[1.08rem] right-[-7.7rem] z-[1] bg-[url('/images/inner-foot-dark.fb81e4b.png')] bg-no-repeat bg-center bg-cover">
+                <div className="pworld-section-footer absolute w-[9.91rem] h-[7.08rem] bottom-[1.08rem] right-[-7.7rem] z-[1] bg-[url('/mihomo-zzz-/images/inner-foot-dark.fb81e4b.png')] bg-no-repeat bg-center bg-cover">
 
 
 

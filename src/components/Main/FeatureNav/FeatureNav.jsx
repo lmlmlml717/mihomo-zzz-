@@ -41,7 +41,7 @@ export const    FeatureNav = ({current}) => {
 
 
             </div>
-            <div className='z-[-1] absolute bottom-0 left-0 w-[20.62rem] h-[2.32rem] bg-[url(/images/bar.9dcf6df.png)] bg-no-repeat bg-[length:100%_100%] '>
+            <div className='z-[-1] absolute bottom-0 left-0 w-[20.62rem] h-[2.32rem] bg-[url(/mihomo-zzz-/images/bar.9dcf6df.png)] bg-no-repeat bg-[length:100%_100%] '>
 
             </div>
 

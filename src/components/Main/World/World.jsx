@@ -79,6 +79,7 @@ export const World = () => {
 
 
 
+
     return (
         <section className="home-section section-world " id="active5">
             <div className="relative h-[10.64rem] pt-[2rem]">
@@ -116,11 +117,11 @@ export const World = () => {
 
                             {/* ========================== 前*/}
 
-                            <div onClick={Prev} className="swiper-button-prev left-[.26rem] right-auto mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-70 hover:opacity-100" >
+                            <div onClick={Prev} className="swiper-button-prev left-[.26rem] right-auto mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/mihomo-zzz-/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-70 hover:opacity-100" >
                             </div>
                             {/* ========================== 后*/}
 
-                            <div onClick={Next} className="swiper-button-next rotate-180 left-auto right-[.2rem] mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-70 hover:opacity-100" >
+                            <div onClick={Next} className="swiper-button-next rotate-180 left-auto right-[.2rem] mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/mihomo-zzz-/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-70 hover:opacity-100" >
                             </div>
 
                         </div>
@@ -132,7 +133,7 @@ export const World = () => {
 
                 {/* ===============================右 */}
                 <div className="absolute w-[6.67rem] h-[2.37rem] bottom-[1.1rem] right-0">
-                    <div className="absolute top-0 left-0 w-full h-full bg-[url(/images/concept-nav.7bc3606.png)] bg-no-repeat bg-[length:100%_100%]">
+                    <div className="absolute top-0 left-0 w-full h-full bg-[url(/mihomo-zzz-/images/concept-nav.7bc3606.png)] bg-no-repeat bg-[length:100%_100%]">
                         <a target="_blank" href="https://space.bilibili.com/39281371?spm_id_from=333.1007.0.0" className="decoration-none">
 
                             <div className="relative z-[2] flex flex-col items-end justify-center w-[3.47rem] h-full pr-[.35rem] text-[.46rem] leading-[1] text-right text-[#07040b]">
@@ -145,8 +146,8 @@ export const World = () => {
                                 <div className="mt-[.18rem] ml-[.18rem] w-[2.14rem] h-[1.5rem] bg-[#fff]">
                                     <img className="w-full h-full object-cover object-center" src={`/mihomo-zzz-/images/6360987773eec96ad06bd5037979034a_7429561287467471877.gif`} />
                                 </div>
-                                <div className="top-0 left-0 w-full h-full absolute bg-[url(/images/concept-tv.8242ab6.png)] bg-no-repeat bg-[length:100%_100%]"></div>
-                                <div className="top-1/2 left-[.9rem] z-[3] w-[.7rem] h-[.7rem] absolute bg-[url(/images/zan.png)] bg-no-repeat bg-[length:100%_100%] translate-y-[-50%]"></div>
+                                <div className="top-0 left-0 w-full h-full absolute bg-[url(/mihomo-zzz-/images/concept-tv.8242ab6.png)] bg-no-repeat bg-[length:100%_100%]"></div>
+                                <div className="top-1/2 left-[.9rem] z-[3] w-[.7rem] h-[.7rem] absolute bg-[url(/mihomo-zzz-/images/zan.png)] bg-no-repeat bg-[length:100%_100%] translate-y-[-50%]"></div>
 
                             </div>
 

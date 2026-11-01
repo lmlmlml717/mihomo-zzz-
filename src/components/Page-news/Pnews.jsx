@@ -68,6 +68,7 @@ export const Pnews = ({ children, currentPg }) => {
 
 
 
+
     useGSAP(() => {
 
         const element = document.querySelector('.pnews-slider-item');
@@ -110,12 +111,12 @@ export const Pnews = ({ children, currentPg }) => {
                         <div className='absolute w-[25.5rem] h-[3.68rem]'>
 
 
-                            <div onClick={() => { if (swiperCurrent === 0) { return; } ;setSwiperCurrent(prev => prev - 1) }} className="absolute swiper-button-prev z-[10] left-[.26rem] right-auto mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-90 hover:opacity-100" >
+                            <div onClick={() => { if (swiperCurrent === 0) { return; } ;setSwiperCurrent(prev => prev - 1) }} className="absolute swiper-button-prev z-[10] left-[.26rem] right-auto mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/mihomo-zzz-/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-90 hover:opacity-100" >
 
                             </div>
 
 
-                            <div onClick={() =>{if ( swiperCurrent === 11 ) { setSwiperCurrent(-1); } setSwiperCurrent(prev => prev + 1)}} className="absolute swiper-button-next z-[10] rotate-180 left-auto right-[6.5rem] mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-90 hover:opacity-100" >
+                            <div onClick={() =>{if ( swiperCurrent === 11 ) { setSwiperCurrent(-1); } setSwiperCurrent(prev => prev + 1)}} className="absolute swiper-button-next z-[10] rotate-180 left-auto right-[6.5rem] mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/mihomo-zzz-/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-90 hover:opacity-100" >
 
                             </div>
                         </div>
@@ -139,6 +140,7 @@ export const Pnews = ({ children, currentPg }) => {
 
 
 
+
                         </div>
                     </div>
                     {/* ================== */}
@@ -146,14 +148,12 @@ export const Pnews = ({ children, currentPg }) => {
                         <div className="swiper-pagination top-0 w-full z-[10] leading-[.2rem] text-left">
                             {[1, 2, 3, 4, 5, 6].map((item) => {
 
-                                
 
-                              
 
 
                                 return (
                                     <span
-                                        style={{ backgroundImage: swiperCurrent === item - 1 || swiperCurrent2 === item -1 ? 'url(/images/hou.png)' : '' }}
+                                        style={{ backgroundImage: swiperCurrent === item - 1 || swiperCurrent2 === item -1 ? 'url(/mihomo-zzz-/images/hou.png)' : '' }}
 
 
                                         onClick={() => setSwiperCurrent(item - 1)}
@@ -191,7 +191,7 @@ export const Pnews = ({ children, currentPg }) => {
                 </div>
 
                 {/* ================== */}
-                <div className="pnews-section-footer absolute w-[9.91rem] h-[7.08rem] bottom-[1.08rem] right-[-6.4rem] z-[1] bg-[url('/images/inner-foot.ebee1c3.png')] bg-no-repeat bg-center bg-cover">
+                <div className="pnews-section-footer absolute w-[9.91rem] h-[7.08rem] bottom-[1.08rem] right-[-6.4rem] z-[1] bg-[url('/mihomo-zzz-/images/inner-foot.ebee1c3.png')] bg-no-repeat bg-center bg-cover">
 
                 </div>
             </div>

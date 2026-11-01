@@ -51,7 +51,7 @@ export const Feature = () => {
 
             <div className="relative mt-[1.18rem] h-[12.7rem]">
                 {/* ===================== */}
-                <div className="section-nav lg left-0 left-0 h-[7.86rem] w-[8.45rem] top-[2.98rem] bg-[url(/images/bg-nav.daea1f6.png)] bg-no-repeat bg-[length:100%_100%]">
+                <div className="section-nav lg left-0 left-0 h-[7.86rem] w-[8.45rem] top-[2.98rem] bg-[url(/mihomo-zzz-/images/bg-nav.daea1f6.png)] bg-no-repeat bg-[length:100%_100%]">
                     <div className=" absolute right-0 pointer-events-auto text-left w-[5.24rem] pl-[.7rem] text-[left]">
                         <Title className="section-f-title" title="游戏特色" secondTitle="feature" num="04" />
 
@@ -60,7 +60,7 @@ export const Feature = () => {
                 </div>
 
                 {/* ===================== */}
-                <div className='absolute top-[3rem] left-[4.98rem] w-[20.67rem] h-[7.86rem] bg-[url(/images/panel.66cafff.png)] bg-no-repeat bg-[length:100%_100%]'>
+                <div className='absolute top-[3rem] left-[4.98rem] w-[20.67rem] h-[7.86rem] bg-[url(/mihomo-zzz-/images/panel.66cafff.png)] bg-no-repeat bg-[length:100%_100%]'>
                     <FeatureNav current={current} />
 
 

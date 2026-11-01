@@ -18,9 +18,9 @@ export const Pwitem = ({ bimg, h, p }) => {
 
 
     return (
-        <div className="pworld relative min-h-[calc(100vh-1rem)] mt-[1rem] bg-[url('/images/bg.123ba49.jpg')] no-repeat bg-center bg-cover bg-fixed overflow-hidden" >
+        <div className="pworld relative min-h-[calc(100vh-1rem)] mt-[1rem] bg-[url('/mihomo-zzz-/images/bg.123ba49.jpg')] no-repeat bg-center bg-cover bg-fixed overflow-hidden" >
 
-            <div className="pworld-container overflow-hidden bg-[url('/images/inner-top.224793e.png')] bg-no-repeat bg-[position:0_-1rem] bg-[size:10.3rem_11.6rem]">
+            <div className="pworld-container overflow-hidden bg-[url('/mihomo-zzz-/images/inner-top.224793e.png')] bg-no-repeat bg-[position:0_-1rem] bg-[size:10.3rem_11.6rem]">
 
 
                 {/* ================== */}
@@ -36,7 +36,7 @@ export const Pwitem = ({ bimg, h, p }) => {
                 <div className='pworld-section-wrap relative my-0 mx-auto w-full'>
 
                     <div className='detail-inner relative z-[2] w-[12.8rem] mt-[1.6rem] mx-auto pt-[1.08rem] pb-[1.42rem]'>
-                        <Link href="/world" ><div className="absolute top-0 right-0 w-[1.1rem] h-[.72rem] bg-[url('/images/x.png')] bg-no-repeat bg-center bg-cover"></div></Link>
+                        <Link href="/world" ><div className="absolute top-0 right-0 w-[1.1rem] h-[.72rem] bg-[url('/mihomo-zzz-/images/x.png')] bg-no-repeat bg-center bg-cover"></div></Link>
 
 
                         {/* ================== */}
@@ -97,7 +97,7 @@ export const Pwitem = ({ bimg, h, p }) => {
                 </div>
 
                 {/* ================== */}
-                <div className="pworld-section-footer absolute w-[9.91rem] h-[7.08rem] bottom-[1.08rem] right-[-7.7rem] z-[1] bg-[url('/images/inner-foot-dark.fb81e4b.png')] bg-no-repeat bg-center bg-cover">
+                <div className="pworld-section-footer absolute w-[9.91rem] h-[7.08rem] bottom-[1.08rem] right-[-7.7rem] z-[1] bg-[url('/mihomo-zzz-/images/inner-foot-dark.fb81e4b.png')] bg-no-repeat bg-center bg-cover">
 
 
 
@@ -107,4 +107,3 @@ export const Pwitem = ({ bimg, h, p }) => {
         </div >
     );
 }
-

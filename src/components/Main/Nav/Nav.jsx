@@ -48,6 +48,7 @@ const Nav = ({ item, className }) => {
     };
 
 
+
     const onClickRecharge = () => {
 
         setIsOpen(false);
@@ -80,6 +81,7 @@ const Nav = ({ item, className }) => {
                 </Link>)
                 :
                 (<div className={`h-[1rem] text-[0.2rem] font-bold text-[#787878] relative pt-[0.28rem] ${className}`} ref={containerRef} >
+
 
 
 
@@ -142,6 +144,8 @@ const Nav = ({ item, className }) => {
 
 
 
+
+
                 )
     );
 }
@@ -192,7 +196,7 @@ export const Header = ({ }) => {
                         {/* ======================== 分享*/}
                         <div className="h-full ml-[.52rem]" >
                             <div className="relative flex items-center h-full" >
-                                <div className="w-[.58rem] h-[.58rem] bg-[position:0_0] bg-[size:100%_100%] bg-[url(/images/share.png)] cursor-pointer" >
+                                <div className="w-[.58rem] h-[.58rem] bg-[position:0_0] bg-[size:100%_100%] bg-[url(/mihomo-zzz-/images/share.png)] cursor-pointer" >
 
 
                                 </div>
@@ -203,7 +207,7 @@ export const Header = ({ }) => {
                         <div className="h-full ml-[.38rem]" >
                             <div className=" h-full" >
                                 <div className="relative flex items-center h-full" >
-                                    <div className="w-[.58rem] h-[.58rem] bg-[url(/images/user.png)] bg-center bg-contain cursor-pointer" >
+                                    <div className="w-[.58rem] h-[.58rem] bg-[url(/mihomo-zzz-/images/user.png)] bg-center bg-contain cursor-pointer" >
 
 
 
@@ -217,6 +221,7 @@ export const Header = ({ }) => {
                     </div>
 
                 </div>
+
 
 
 

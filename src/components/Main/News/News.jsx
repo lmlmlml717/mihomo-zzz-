@@ -117,10 +117,10 @@ export const News = () => {
                                 </div>
                             </div>
                             <div className="">
-                                <div onClick={prev} className="swiper-button-prev z-[20] left-[.26rem] right-auto mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-60 hover:opacity-100" >
+                                <div onClick={prev} className="swiper-button-prev z-[20] left-[.26rem] right-auto mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/mihomo-zzz-/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-60 hover:opacity-100" >
 
                                 </div>
-                                <div onClick={next} className="swiper-button-next z-[20] rotate-180 left-auto right-[.2rem] mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-60  hover:opacity-100" >
+                                <div onClick={next} className="swiper-button-next z-[20] rotate-180 left-auto right-[.2rem] mt-[-0.75rem] w-[.86rem] h-[1.5rem] bg-[url(/mihomo-zzz-/images/jian.png)] bg-no-repeat bg-center bg-[length:0.46rem_.7rem] pointer-events-auto opacity-60  hover:opacity-100" >
 
 
                                 </div>
@@ -158,7 +158,7 @@ export const News = () => {
                                             style={
                                                 isActive
                                                     ? {
-                                                        backgroundImage: 'url("/images/hou.png")',
+                                                        backgroundImage: 'url("/mihomo-zzz-/images/hou.png")',
                                                         backgroundRepeat: 'no-repeat',
                                                         backgroundPosition: 'center',
                                                         backgroundSize: '100% 100%',

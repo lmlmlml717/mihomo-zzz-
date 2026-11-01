@@ -24,6 +24,8 @@ export const Character = () => {
 
 
 
+
+
     return (
         <section className="home-section section-character pt-[1.4rem]"
           
@@ -45,7 +47,7 @@ export const Character = () => {
 
             < div className="relative z-[2] h-[10.86rem]">
                 {/* ====================Title */}
-                <div className='section-nav font-num lg z-[1] left-0 h-[7.86rem] w-[8.45rem] top-[2.98rem] bg-[url(/images/bg-nav.daea1f6.png)] bg-no-repeat bg-[length:100%_100%]'>
+                <div className='section-nav font-num lg z-[1] left-0 h-[7.86rem] w-[8.45rem] top-[2.98rem] bg-[url(/mihomo-zzz-/images/bg-nav.daea1f6.png)] bg-no-repeat bg-[length:100%_100%]'>
 
                     <div className=" absolute right-0 pointer-events-auto text-left w-[5.24rem] pl-[.7rem] text-[left]">
 
@@ -62,8 +64,8 @@ export const Character = () => {
                 </div>
                 {/* ====================角色end */}
 
-                <div className='absolute top-[3rem] left-[4.94rem] w-[20.67rem] h-[7.86rem] z-[2] bg-[url(/images/chara-panel-bg.86c2c99.png)] bg-no-repeat bg-[3.1rem_0] bg-[length:100%_100%]'>
-                    <div className='absolute top-0 left-0 w-[20.65rem] h-[7.86rem] bg-[url(/images/chara-panel.20d68d6.png)] bg-no-repeat bg-[length:100%_100%] '>
+                <div className='absolute top-[3rem] left-[4.94rem] w-[20.67rem] h-[7.86rem] z-[2] bg-[url(/mihomo-zzz-/images/chara-panel-bg.86c2c99.png)] bg-no-repeat bg-[3.1rem_0] bg-[length:100%_100%]'>
+                    <div className='absolute top-0 left-0 w-[20.65rem] h-[7.86rem] bg-[url(/mihomo-zzz-/images/chara-panel.20d68d6.png)] bg-no-repeat bg-[length:100%_100%] '>
                     </div>
                     {/* ====================背景图 */}
 
