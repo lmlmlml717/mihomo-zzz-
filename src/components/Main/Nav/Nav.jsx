@@ -20,7 +20,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Nav = ({ item, className }) => {
 
     const pathname = usePathname();
-    const isActive = pathname === item.link || pathname.startsWith(item.link + '/mihomo-zzz-');
+    const isActive = pathname === item.link || pathname.startsWith(item.link + '/');
 
     const [isSubVisible, setSubVisible] = useState(0);
     const subRef = useRef(null);
